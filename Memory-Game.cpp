@@ -17,15 +17,15 @@ int pozicija(int display, int serija){
 			switch(display){
 				case 1: 
 				case 2: cout << "Pritisni gumb na drugoj poziciji!"; return 2; break;
-				case 3: cout << "Pritisni gumb na treæoj poziciji!"; return 3; break;
-				case 4: cout << "Pritisni gumb na èetvrtoj poziciji!"; return 4; break;
+				case 3: cout << "Pritisni gumb na treÃ¦oj poziciji!"; return 3; break;
+				case 4: cout << "Pritisni gumb na Ã¨etvrtoj poziciji!"; return 4; break;
 							}
 		break;
 				}
 
 		case 1: {
 			switch(display){
-				case 1: cout << "Pritisni gumb na kojemu pise èetiri!"; memory[2][1] = 4; return 0; break; //UVJETNA
+				case 1: cout << "Pritisni gumb na kojemu pise Ã¨etiri!"; memory[2][1] = 4; return 0; break; //UVJETNA
 				case 2: printf("Gumb na %d poziciji!", memory[1][0]); return memory[1][0]; break;
 				case 3: cout << "Pritisni gumb na prvoj poziciji!"; return 1; break;
 				case 4: printf("Gumb na %d poziciji!", memory[1][0]); return memory[1][0]; break;
@@ -38,7 +38,7 @@ int pozicija(int display, int serija){
 				case 1: printf("Gumb na kojemu pise %d!", memory[2][1]); memory[2][2] = memory[2][1]; return 0; break; //UVJETNA
 				case 2: printf("Gumb na kojemu pise %d!", memory[2][0]); memory[2][2] = memory[2][0]; return 0; break; //UVJETNA
 				case 3: cout << "Pritisni gumb na prvoj poziciji!"; return 1; break;
-				case 4: cout << "Pritisni gumb na kojemu pise èetiri!"; memory[2][2] = 4; return 0; break; //UVJETNA
+				case 4: cout << "Pritisni gumb na kojemu pise Ã¨etiri!"; memory[2][2] = 4; return 0; break; //UVJETNA
 							}
 		break;
 				}
