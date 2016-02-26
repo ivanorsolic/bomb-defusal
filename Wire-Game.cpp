@@ -17,7 +17,7 @@ void tri(){
 		cin >> ima;
 		if (ima == 'd') cout << "Presijeci zadnju zicu!\n";
 		else{
-			cout << "Ima li više od jedne plave zice (d/n): ";
+			cout << "Ima li viÅ¡e od jedne plave zice (d/n): ";
 			cin >> ima;
 			if (ima == 'd') cout << "Presijeci zadnju plavu zicu!\n";
 			else cout << "Presijeci zadnju zicu!\n";
